@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Peso ideal</title>
+    <script src="js/m.js"></script> <!-- Aquí apuntamos correctamente -->
+</head>
+<body>
+    <!-- Sección de encabezado -->
+    <div>
+        <img src="img/img128x128.png" width="32" height="32">
+        <h2>Peso ideal</h2>
+        <h4>Incorpore los datos requeridos</h4>
+    </div>
+    <hr>
+
+    <!-- Formulario -->
+    <div>
+        <form>
+            <table border="0">
+                <tr>
+                    <td><label>Edad</label></td>
+                    <td><input type="number" id="txt_edad" placeholder="Ingrese edad"></td>
+                </tr>
+                <tr>
+                    <td><label>Peso actual</label></td>
+                    <td><input type="number" id="txt_peso_actual" placeholder="Peso actual"></td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="button" value="Calcular" onclick="calcularPesoIdeal();">
+                    </td>
+                </tr>
+            </table>
+        </form>
+
+        <!-- Contenedor para mostrar peso ideal -->
+        <div id="cnt_peso_ideal"></div>
+        <!-- Contenedor para mostrar estado de peso -->
+        <div id="cnt_estado_peso"></div>
+        <!-- Contenedor para mostrar imagen alusiva -->
+        <div id="cnt_estado_imagen"></div>
+    </div>
+</body>
+</html>

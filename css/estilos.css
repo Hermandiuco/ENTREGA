@@ -1,0 +1,22 @@
+/* Estilo a nivel de etiqueta */
+body{
+    background-color: rgb(81, 190, 81);
+    margin-top: 4px;
+}
+/*Estilo nivel id */
+#cnt_encabezado {
+    background-color: rgba(63, 167, 103, 0.829);
+    color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-style: solid;
+    border-width: 5px; /* grosor de borde*/
+    border-color: black;
+    border-radius: 15px;
+}
+
+/*etiquetas a nivel de clase */
+.etiquetas-formulario {
+    color: rgb(12, 12, 12);
+    
+}
